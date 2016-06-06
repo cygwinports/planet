@@ -17,6 +17,8 @@ PATCH_URI="
 	http://pkgs.fedoraproject.org/cgit/planet.git/plain/planet-js-sanitize.patch
 "
 
+ARCH=noarch
+
 src_test() {
 	cd ${B}
 	./runtests.py || true
